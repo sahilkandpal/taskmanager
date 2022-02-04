@@ -23,7 +23,7 @@ function SideNav() {
       <div className="logo">
         <img
           src="https://owwstudio.com/wp-content/themes/owwstudio-v3/images/logo.svg"
-          alt="logo image"
+          alt="logo"
         />
         <h4>OWW Studio</h4>
       </div>
