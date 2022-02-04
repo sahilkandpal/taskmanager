@@ -1,5 +1,5 @@
 # About
-Task Manager with ### `drag N drop` functionality
+Task Manager with `drag N drop` functionality
 
 # Getting Started with Create React App
 
