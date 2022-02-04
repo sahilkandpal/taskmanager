@@ -1,0 +1,41 @@
+@import "../../sass/variables.scss";
+
+.main_section {
+  padding: 30px 0 30px 30px;
+  background-color: #ffffff;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .info {
+    color: $text-color1;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+    .new {
+      background-color: $grey1;
+      border-radius: 5px;
+      padding: 0px 5px;
+      color: $blue;
+      font-weight: 500;
+    }
+  }
+
+  .taskscols {
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+    margin-top: 40px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 10px;
+      background-color: lightgrey;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #a5a5a5;
+    }
+  }
+}

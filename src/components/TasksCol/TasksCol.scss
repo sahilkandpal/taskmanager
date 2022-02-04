@@ -1,0 +1,32 @@
+@import "../../sass/variables.scss";
+.taskscol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  .col_top {
+    display: flex;
+    justify-content: space-between;
+    background-color: $grey2;
+    border-radius: 8px;
+    padding: 8px 8px;
+
+    .col_title {
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .total_tasks {
+      padding: 2px 6px;
+      background-color: $light-black1;
+      color: #fff;
+      border-radius: 4px;
+      font-size: 10px;
+    }
+  }
+
+  .tasks {
+    flex-grow: 1;
+    margin-top: 20px;
+  }
+}

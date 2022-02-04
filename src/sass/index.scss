@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1.1fr 3fr 1.3fr;
+}

@@ -1,0 +1,21 @@
+@import "../../sass/variables.scss";
+.chat_options {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  .chatbox {
+    background-color: #f4f5f7;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    flex-grow: 1;
+    &::placeholder {
+      color: #a4a4a5;
+    }
+  }
+  .option {
+    padding: 0 5px;
+    color: $text-color1;
+  }
+}

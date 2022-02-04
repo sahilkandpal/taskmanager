@@ -1,0 +1,30 @@
+@import "../../sass/variables.scss";
+.member {
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0;
+
+    .heading {
+      font-weight: 500;
+      .count {
+        color: $blue;
+      }
+    }
+
+    .view {
+      color: $text-color1;
+      font-size: 13px;
+      font-weight: 500;
+    }
+  }
+  &_list {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+}

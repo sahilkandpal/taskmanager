@@ -1,0 +1,8 @@
+@import "../../sass/variables.scss";
+.rightbox {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  border-left: 1px solid $grey1;
+}

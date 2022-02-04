@@ -1,0 +1,33 @@
+@import "../../sass/variables.scss";
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+
+  .heading {
+    font-weight: 500;
+    font-size: 28px;
+  }
+
+  .options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .option {
+      color: $light-black2;
+      background-color: $grey1;
+      padding: 1px 5px;
+      border-radius: 50%;
+      & > * {
+        vertical-align: -webkit-baseline-middle;
+      }
+    }
+    .option_3 {
+      img {
+        border-radius: 50%;
+        vertical-align: middle;
+      }
+    }
+  }
+}

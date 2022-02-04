@@ -1,0 +1,63 @@
+@import "../../sass/variables.scss";
+.chat {
+  flex-grow: 1;
+  max-height: 75%;
+  overflow: auto;
+
+  &_heading {
+    font-weight: 500;
+  }
+  &_content {
+    margin-top: 20px;
+
+    .content {
+      &_top {
+        align-self: flex-end;
+        display: flex;
+        gap: 10px;
+        .avatar {
+          border-radius: 50%;
+          align-self: flex-end;
+        }
+        .text {
+          max-width: 75%;
+          font-size: 13px;
+          font-size: 500;
+          background-color: $grey1;
+          padding: 8px 10px;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+          border-top-left-radius: 5px;
+        }
+      }
+
+      .mycontent_top {
+        flex-direction: row-reverse;
+        .text {
+          border-top-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: unset !important;
+          border-top-left-radius: 5px;
+          background-color: $blue;
+          color: #fff;
+        }
+      }
+      &_bottom {
+        padding: 5px 0 12px 30px;
+        .time {
+          font-size: 10px;
+          font-weight: 500;
+          color: $text-color2;
+          width: fit-content;
+        }
+      }
+
+      .mycontent_bottom {
+        padding: 5px 30px 12px 0px;
+        .time {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+@import "../../sass/variables.scss";
+
+.sidenav {
+  background-color: $grey1;
+  padding: 30px;
+  height: 100vh;
+  position: relative;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    background-color: lightgrey;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #a5a5a5;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 13px;
+
+    img {
+      background: $blue;
+      width: 30px;
+      border-radius: 50%;
+      height: 30px;
+      padding: 5px;
+    }
+  }
+
+  .options {
+    .navlink {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: $text-color2;
+      padding: 10px;
+      margin: 5px 0;
+      font-size: 14px;
+    }
+  }
+
+  .categories {
+    margin-bottom: 50px;
+    .category {
+      padding: 10px;
+      border-radius: 8px;
+      margin: 10px 0;
+      font-size: 13px;
+      font-weight: 500;
+
+      .right_arrow {
+        vertical-align: text-bottom;
+      }
+    }
+  }
+
+  .add_project_btn {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: auto;
+    background-color: $blue;
+    padding: 8px 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    color: #fff;
+  }
+}

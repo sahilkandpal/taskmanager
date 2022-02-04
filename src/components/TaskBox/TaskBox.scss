@@ -1,0 +1,48 @@
+@import "../../sass/variables.scss";
+.taskbox {
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  padding: 12px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  z-index: 1;
+  border-radius: 10px;
+
+  &_top {
+    display: flex;
+    justify-content: space-between;
+    .menu {
+      color: $text-color1;
+    }
+  }
+
+  &_task {
+    padding: 10px 0;
+    flex-grow: 1;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  &_bottom {
+    display: flex;
+    justify-content: space-between;
+
+    .date {
+      background-color: orange;
+      padding: 2px 4px;
+      border-radius: 5px;
+      font-size: 14px;
+      color: #fff;
+    }
+
+    .people {
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+}
