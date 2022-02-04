@@ -48,7 +48,7 @@ function SideNav() {
             key={index}
             style={{ backgroundColor: index === 0 ? "#fff" : null }}
           >
-            <img src={rightarrow} className="right_arrow" />
+            <img src={rightarrow} className="right_arrow" alt="" />
             {category}
           </div>
         ))}
